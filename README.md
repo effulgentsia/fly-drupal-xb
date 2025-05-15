@@ -11,3 +11,5 @@ fly --app my-app secrets set DRUPAL_PASSWORD=admin_password
 fly --app my-app deploy
 fly --app my-app scale count 1
 ```
+
+4. Navigate to https://my-app.fly.dev and enjoy!
