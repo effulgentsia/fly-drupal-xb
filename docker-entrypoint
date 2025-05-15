@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+./vendor/bin/drush user:password admin "$DRUPAL_PASSWORD"
+unset DRUPAL_PASSWORD
+
+source /usr/local/bin/docker-php-entrypoint-base
